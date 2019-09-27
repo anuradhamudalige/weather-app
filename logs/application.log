@@ -1,0 +1,524 @@
+2019-09-25T18:08:36.308+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 36507 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-25T18:08:36.317+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-25T18:08:37.051+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-25T18:08:37.123+0530 INFO Finished Spring Data repository scanning in 69ms. Found 2 repository interfaces.
+2019-09-25T18:08:37.416+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$2aeef0f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-25T18:08:37.678+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-25T18:08:37.690+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:08:37.700+0530 INFO Starting service [Tomcat]
+2019-09-25T18:08:37.701+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25T18:08:37.787+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-25T18:08:37.787+0530 INFO Root WebApplicationContext: initialization completed in 1371 ms
+2019-09-25T18:08:38.479+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-25T18:08:38.480+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:08:38.499+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:08:38.500+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:08:39.560+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:08:39.627+0530 INFO Adding welcome page template: index
+2019-09-25T18:08:39.934+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:08:39.975+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-25T18:08:39.979+0530 INFO Started WeatherappApplication in 4.047 seconds (JVM running for 5.048)
+2019-09-25T18:08:40.325+0530 INFO Opened connection [connectionId{localValue:1, serverValue:402670}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:08:40.433+0530 INFO Opened connection [connectionId{localValue:2, serverValue:405294}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-25T18:08:40.618+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=291175978, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Wed Sep 25 18:08:38 IST 2019, lastUpdateTimeNanos=71356986783679}
+2019-09-25T18:08:40.619+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:08:40.620+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:08:40.620+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:08:40.732+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=299034166, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:08:38 IST 2019, lastUpdateTimeNanos=71357101756748}
+2019-09-25T18:08:41.075+0530 INFO Opened connection [connectionId{localValue:3, serverValue:408190}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-25T18:08:41.386+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=310463658, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:08:38 IST 2019, lastUpdateTimeNanos=71357755415531}
+2019-09-25T18:08:49.889+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25T18:08:49.889+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-25T18:08:49.905+0530 INFO Completed initialization in 16 ms
+2019-09-25T18:08:52.545+0530 INFO Opened connection [connectionId{localValue:4, serverValue:403280}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:08:55.522+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@c625bce, com.anuradha.weather.model.Weather@bc73286, com.anuradha.weather.model.Weather@3cae10d0, com.anuradha.weather.model.Weather@74bddb0b, com.anuradha.weather.model.Weather@6a1f4279, com.anuradha.weather.model.Weather@58fe1ebe]
+2019-09-25T18:10:42.725+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:10:43.040+0530 INFO Closed connection [connectionId{localValue:4, serverValue:403280}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-25T18:10:49.242+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 36796 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-25T18:10:49.250+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-25T18:10:49.867+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-25T18:10:49.924+0530 INFO Finished Spring Data repository scanning in 53ms. Found 2 repository interfaces.
+2019-09-25T18:10:50.212+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$71effc58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-25T18:10:50.461+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-25T18:10:50.474+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:10:50.483+0530 INFO Starting service [Tomcat]
+2019-09-25T18:10:50.484+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25T18:10:50.560+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-25T18:10:50.560+0530 INFO Root WebApplicationContext: initialization completed in 1225 ms
+2019-09-25T18:10:51.293+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-25T18:10:51.294+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:10:51.313+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:10:51.314+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:10:52.387+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:10:52.454+0530 INFO Adding welcome page template: index
+2019-09-25T18:10:52.729+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:10:52.769+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-25T18:10:52.775+0530 INFO Started WeatherappApplication in 3.898 seconds (JVM running for 5.025)
+2019-09-25T18:10:53.588+0530 INFO Opened connection [connectionId{localValue:3, serverValue:404000}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-25T18:10:53.590+0530 INFO Opened connection [connectionId{localValue:2, serverValue:405294}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-25T18:10:53.590+0530 INFO Opened connection [connectionId{localValue:1, serverValue:402670}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:10:53.955+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=362738571, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Wed Sep 25 18:10:48 IST 2019, lastUpdateTimeNanos=71490327083855}
+2019-09-25T18:10:53.955+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=365127941, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:10:48 IST 2019, lastUpdateTimeNanos=71490328254482}
+2019-09-25T18:10:53.956+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=365406552, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:10:48 IST 2019, lastUpdateTimeNanos=71490329336644}
+2019-09-25T18:10:53.957+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:10:53.957+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:10:53.957+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:10:57.915+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25T18:10:57.915+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-25T18:10:57.944+0530 INFO Completed initialization in 29 ms
+2019-09-25T18:11:00.856+0530 INFO Opened connection [connectionId{localValue:4, serverValue:405601}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:03.316+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@3ce7adb6, com.anuradha.weather.model.Weather@3cc62347, com.anuradha.weather.model.Weather@26ce0711, com.anuradha.weather.model.Weather@109ba8bb, com.anuradha.weather.model.Weather@11103d03, com.anuradha.weather.model.Weather@1cc1f87d]
+2019-09-25T18:11:15.002+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:11:15.306+0530 INFO Closed connection [connectionId{localValue:4, serverValue:405601}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-25T18:11:19.556+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 36861 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-25T18:11:19.566+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-25T18:11:20.459+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-25T18:11:20.544+0530 INFO Finished Spring Data repository scanning in 79ms. Found 2 repository interfaces.
+2019-09-25T18:11:20.897+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$3e7c5e41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-25T18:11:21.262+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-25T18:11:21.279+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:11:21.290+0530 INFO Starting service [Tomcat]
+2019-09-25T18:11:21.290+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25T18:11:21.384+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-25T18:11:21.384+0530 INFO Root WebApplicationContext: initialization completed in 1766 ms
+2019-09-25T18:11:22.395+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-25T18:11:22.395+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:11:22.421+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:11:22.423+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:11:23.925+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:11:24.046+0530 INFO Adding welcome page template: index
+2019-09-25T18:11:24.364+0530 INFO Opened connection [connectionId{localValue:1, serverValue:403280}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:24.372+0530 INFO Opened connection [connectionId{localValue:2, serverValue:403031}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-25T18:11:24.387+0530 INFO Opened connection [connectionId{localValue:3, serverValue:404000}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-25T18:11:24.460+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:11:24.502+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-25T18:11:24.506+0530 INFO Started WeatherappApplication in 5.668 seconds (JVM running for 7.002)
+2019-09-25T18:11:24.715+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=348462049, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Wed Sep 25 18:11:22 IST 2019, lastUpdateTimeNanos=71521088218680}
+2019-09-25T18:11:24.715+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=328051693, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:11:22 IST 2019, lastUpdateTimeNanos=71521089819400}
+2019-09-25T18:11:24.715+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=342808754, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:11:22 IST 2019, lastUpdateTimeNanos=71521089838129}
+2019-09-25T18:11:24.718+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:24.718+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:24.719+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:43.929+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:11:48.669+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 36927 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-25T18:11:48.675+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-25T18:11:49.491+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-25T18:11:49.563+0530 INFO Finished Spring Data repository scanning in 69ms. Found 2 repository interfaces.
+2019-09-25T18:11:49.934+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$63a92b5b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-25T18:11:50.230+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-25T18:11:50.243+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:11:50.253+0530 INFO Starting service [Tomcat]
+2019-09-25T18:11:50.254+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25T18:11:50.332+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-25T18:11:50.332+0530 INFO Root WebApplicationContext: initialization completed in 1566 ms
+2019-09-25T18:11:51.051+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-25T18:11:51.051+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:11:51.071+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:11:51.073+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:11:52.164+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:11:52.234+0530 INFO Adding welcome page template: index
+2019-09-25T18:11:52.525+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:11:52.563+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-25T18:11:52.566+0530 INFO Started WeatherappApplication in 4.292 seconds (JVM running for 5.365)
+2019-09-25T18:11:53.285+0530 INFO Opened connection [connectionId{localValue:3, serverValue:404594}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-25T18:11:53.285+0530 INFO Opened connection [connectionId{localValue:2, serverValue:403031}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-25T18:11:53.286+0530 INFO Opened connection [connectionId{localValue:1, serverValue:403280}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:53.593+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=306029344, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:11:41 IST 2019, lastUpdateTimeNanos=71549968311377}
+2019-09-25T18:11:53.594+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=307409905, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Wed Sep 25 18:11:41 IST 2019, lastUpdateTimeNanos=71549969361356}
+2019-09-25T18:11:53.594+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=308074067, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:11:41 IST 2019, lastUpdateTimeNanos=71549969412534}
+2019-09-25T18:11:53.595+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:53.595+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:53.596+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:11:57.158+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25T18:11:57.159+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-25T18:11:57.175+0530 INFO Completed initialization in 16 ms
+2019-09-25T18:12:00.245+0530 INFO Opened connection [connectionId{localValue:4, serverValue:412691}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:12:12.334+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@b06b5dc, com.anuradha.weather.model.Weather@45d55c03, com.anuradha.weather.model.Weather@591eb93d, com.anuradha.weather.model.Weather@640a6ab1, com.anuradha.weather.model.Weather@5a9c8bb9, com.anuradha.weather.model.Weather@3546e1ad]
+2019-09-25T18:12:19.298+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:12:19.602+0530 INFO Closed connection [connectionId{localValue:4, serverValue:412691}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-25T18:12:23.195+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 37003 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-25T18:12:23.206+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-25T18:12:23.992+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-25T18:12:24.071+0530 INFO Finished Spring Data repository scanning in 74ms. Found 2 repository interfaces.
+2019-09-25T18:12:24.378+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$c7639244] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-25T18:12:24.705+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-25T18:12:24.719+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:12:24.731+0530 INFO Starting service [Tomcat]
+2019-09-25T18:12:24.731+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25T18:12:24.819+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-25T18:12:24.819+0530 INFO Root WebApplicationContext: initialization completed in 1522 ms
+2019-09-25T18:12:25.456+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-25T18:12:25.457+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:12:25.481+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:12:25.482+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:12:26.808+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:12:26.905+0530 INFO Adding welcome page template: index
+2019-09-25T18:12:27.309+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:12:27.350+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-25T18:12:27.354+0530 INFO Started WeatherappApplication in 4.612 seconds (JVM running for 5.901)
+2019-09-25T18:12:27.546+0530 INFO Opened connection [connectionId{localValue:1, serverValue:402670}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:12:27.549+0530 INFO Opened connection [connectionId{localValue:2, serverValue:403970}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-25T18:12:27.549+0530 INFO Opened connection [connectionId{localValue:3, serverValue:408190}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-25T18:12:27.897+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=346278368, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:12:11 IST 2019, lastUpdateTimeNanos=71584272299989}
+2019-09-25T18:12:27.897+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=349710971, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Wed Sep 25 18:12:11 IST 2019, lastUpdateTimeNanos=71584273761512}
+2019-09-25T18:12:27.897+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=348143737, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:12:11 IST 2019, lastUpdateTimeNanos=71584273762529}
+2019-09-25T18:12:27.899+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:12:27.900+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:12:27.900+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:13:23.041+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25T18:13:23.041+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-25T18:13:23.064+0530 INFO Completed initialization in 23 ms
+2019-09-25T18:13:25.651+0530 INFO Opened connection [connectionId{localValue:4, serverValue:402670}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:14:45.774+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:14:46.040+0530 INFO Closed connection [connectionId{localValue:4, serverValue:402670}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-25T18:15:12.518+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 37358 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-25T18:15:12.526+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-25T18:15:13.190+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-25T18:15:13.249+0530 INFO Finished Spring Data repository scanning in 55ms. Found 2 repository interfaces.
+2019-09-25T18:15:13.551+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$f6ee528] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-25T18:15:13.819+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-25T18:15:13.832+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:15:13.842+0530 INFO Starting service [Tomcat]
+2019-09-25T18:15:13.843+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25T18:15:13.922+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-25T18:15:13.922+0530 INFO Root WebApplicationContext: initialization completed in 1315 ms
+2019-09-25T18:15:14.565+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-25T18:15:14.565+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:15:14.584+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:15:14.585+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:15:15.613+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:15:15.682+0530 INFO Adding welcome page template: index
+2019-09-25T18:15:15.977+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:15:16.016+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-25T18:15:16.021+0530 INFO Started WeatherappApplication in 3.827 seconds (JVM running for 4.864)
+2019-09-25T18:15:16.652+0530 INFO Opened connection [connectionId{localValue:2, serverValue:397340}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-25T18:15:16.652+0530 INFO Opened connection [connectionId{localValue:1, serverValue:402670}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:15:16.652+0530 INFO Opened connection [connectionId{localValue:3, serverValue:403999}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-25T18:15:17.677+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1023447241, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:15:08 IST 2019, lastUpdateTimeNanos=71754058757578}
+2019-09-25T18:15:18.475+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1821676182, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:15:08 IST 2019, lastUpdateTimeNanos=71754856459284}
+2019-09-25T18:15:18.475+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1821612631, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Wed Sep 25 18:15:08 IST 2019, lastUpdateTimeNanos=71754856398986}
+2019-09-25T18:15:18.475+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:15:18.475+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:15:18.476+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:15:23.337+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25T18:15:23.337+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-25T18:15:23.354+0530 INFO Completed initialization in 16 ms
+2019-09-25T18:15:27.683+0530 INFO Opened connection [connectionId{localValue:4, serverValue:412691}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:15:41.332+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@2601a97b, com.anuradha.weather.model.Weather@4f74065, com.anuradha.weather.model.Weather@6f6e322, com.anuradha.weather.model.Weather@5af31bb6, com.anuradha.weather.model.Weather@71122be2, com.anuradha.weather.model.Weather@4fd8a9cd]
+2019-09-25T18:16:57.416+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@fa9c201, com.anuradha.weather.model.Weather@16fa9850, com.anuradha.weather.model.Weather@4ceff91e, com.anuradha.weather.model.Weather@8574226, com.anuradha.weather.model.Weather@492f30e7, com.anuradha.weather.model.Weather@bd5098a]
+2019-09-25T18:23:37.641+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:23:37.893+0530 INFO Closed connection [connectionId{localValue:4, serverValue:412691}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-25T18:23:51.426+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 38448 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-25T18:23:51.432+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-25T18:23:52.128+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-25T18:23:52.195+0530 INFO Finished Spring Data repository scanning in 63ms. Found 2 repository interfaces.
+2019-09-25T18:23:52.477+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$b98ca1a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-25T18:23:52.730+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-25T18:23:52.746+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:23:52.761+0530 INFO Starting service [Tomcat]
+2019-09-25T18:23:52.762+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-25T18:23:52.850+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-25T18:23:52.851+0530 INFO Root WebApplicationContext: initialization completed in 1341 ms
+2019-09-25T18:23:53.450+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-25T18:23:53.450+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:23:53.472+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:23:53.473+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-25T18:23:54.495+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:23:54.566+0530 INFO Adding welcome page template: index
+2019-09-25T18:23:54.860+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-25T18:23:54.899+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-25T18:23:54.903+0530 INFO Started WeatherappApplication in 3.822 seconds (JVM running for 5.021)
+2019-09-25T18:23:55.416+0530 INFO Opened connection [connectionId{localValue:2, serverValue:406379}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:23:55.416+0530 INFO Opened connection [connectionId{localValue:3, serverValue:398067}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-25T18:23:55.418+0530 INFO Opened connection [connectionId{localValue:1, serverValue:404594}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-25T18:23:55.724+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=304000232, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:23:48 IST 2019, lastUpdateTimeNanos=72272122591486}
+2019-09-25T18:23:55.726+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=308397192, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Wed Sep 25 18:23:48 IST 2019, lastUpdateTimeNanos=72272124855524}
+2019-09-25T18:23:55.726+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=303847747, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Wed Sep 25 18:23:48 IST 2019, lastUpdateTimeNanos=72272124918488}
+2019-09-25T18:23:55.734+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:23:55.734+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:23:55.735+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:44:50.699+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-25T18:44:50.700+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-25T18:44:50.721+0530 INFO Completed initialization in 21 ms
+2019-09-25T18:44:53.344+0530 INFO Opened connection [connectionId{localValue:4, serverValue:405590}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-25T18:44:55.703+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@571e00e, com.anuradha.weather.model.Weather@6f0ffec7, com.anuradha.weather.model.Weather@4f1c6462, com.anuradha.weather.model.Weather@399b87ea, com.anuradha.weather.model.Weather@33607147, com.anuradha.weather.model.Weather@2389482a]
+2019-09-25T18:45:09.106+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-25T18:45:09.424+0530 INFO Closed connection [connectionId{localValue:4, serverValue:405590}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-27T23:04:01.963+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.anuradha.weather.controllers.WeatherControllerTest], using SpringBootContextLoader
+2019-09-27T23:04:01.975+0530 INFO Could not detect default resource locations for test class [com.anuradha.weather.controllers.WeatherControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-09-27T23:04:01.976+0530 INFO Could not detect default configuration classes for test class [com.anuradha.weather.controllers.WeatherControllerTest]: WeatherControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-09-27T23:04:02.189+0530 INFO Found @SpringBootConfiguration com.anuradha.weather.WeatherappApplication for test class com.anuradha.weather.controllers.WeatherControllerTest
+2019-09-27T23:04:02.193+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-09-27T23:04:02.217+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@536dbea0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c81abf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@776a6d9b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@21d03963, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f760b47, org.springframework.test.context.transaction.TransactionalTestExecutionListener@18ece7f4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3cce57c7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1cf56a1c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@33f676f6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4c5ae43b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@264f218, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3576ddc2]
+2019-09-27T23:04:02.830+0530 INFO Starting WeatherControllerTest on ANURADHAM.local with PID 11278 (started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-27T23:04:02.832+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-27T23:04:04.560+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$302ff8cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27T23:04:05.266+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:04:05.395+0530 INFO Adding welcome page template: index
+2019-09-27T23:04:05.727+0530 INFO Initializing Spring TestDispatcherServlet ''
+2019-09-27T23:04:05.728+0530 INFO Initializing Servlet ''
+2019-09-27T23:04:05.742+0530 INFO Completed initialization in 14 ms
+2019-09-27T23:04:05.788+0530 INFO Started WeatherControllerTest in 3.308 seconds (JVM running for 5.663)
+2019-09-27T23:04:05.882+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@5f174dd2, com.anuradha.weather.model.Weather@1945113f]
+2019-09-27T23:04:06.424+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:06:22.539+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.anuradha.weather.controllers.WeatherControllerTest], using SpringBootContextLoader
+2019-09-27T23:06:22.549+0530 INFO Could not detect default resource locations for test class [com.anuradha.weather.controllers.WeatherControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-09-27T23:06:22.551+0530 INFO Could not detect default configuration classes for test class [com.anuradha.weather.controllers.WeatherControllerTest]: WeatherControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-09-27T23:06:22.728+0530 INFO Found @SpringBootConfiguration com.anuradha.weather.WeatherappApplication for test class com.anuradha.weather.controllers.WeatherControllerTest
+2019-09-27T23:06:22.730+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-09-27T23:06:22.746+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@536dbea0, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@47c81abf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@776a6d9b, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@21d03963, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f760b47, org.springframework.test.context.transaction.TransactionalTestExecutionListener@18ece7f4, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@3cce57c7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1cf56a1c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@33f676f6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4c5ae43b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@264f218, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3576ddc2]
+2019-09-27T23:06:23.220+0530 INFO Starting WeatherControllerTest on ANURADHAM.local with PID 11583 (started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-27T23:06:23.222+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-27T23:06:24.713+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$d83dde89] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27T23:06:25.408+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:06:25.505+0530 INFO Adding welcome page template: index
+2019-09-27T23:06:25.833+0530 INFO Initializing Spring TestDispatcherServlet ''
+2019-09-27T23:06:25.833+0530 INFO Initializing Servlet ''
+2019-09-27T23:06:25.847+0530 INFO Completed initialization in 14 ms
+2019-09-27T23:06:25.890+0530 INFO Started WeatherControllerTest in 2.982 seconds (JVM running for 4.819)
+2019-09-27T23:06:25.984+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@493ac8d3, com.anuradha.weather.model.Weather@13dbed9e]
+2019-09-27T23:06:26.448+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:06:51.033+0530 INFO Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.anuradha.weather.controllers.WeatherControllerTest], using SpringBootContextLoader
+2019-09-27T23:06:51.048+0530 INFO Could not detect default resource locations for test class [com.anuradha.weather.controllers.WeatherControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-09-27T23:06:51.049+0530 INFO Could not detect default configuration classes for test class [com.anuradha.weather.controllers.WeatherControllerTest]: WeatherControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-09-27T23:06:51.274+0530 INFO Found @SpringBootConfiguration com.anuradha.weather.WeatherappApplication for test class com.anuradha.weather.controllers.WeatherControllerTest
+2019-09-27T23:06:51.277+0530 INFO Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-09-27T23:06:51.292+0530 INFO Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@264f218, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3576ddc2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@35b74c5c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2e570ded, org.springframework.test.context.support.DirtiesContextTestExecutionListener@b86de0d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@81d9a72, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@747f281, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@1169afe1, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2ca26d77, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4808bc9b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@70e38ce1, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2ca923bb]
+2019-09-27T23:06:51.815+0530 INFO Starting WeatherControllerTest on ANURADHAM.local with PID 11647 (started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-27T23:06:51.817+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-27T23:06:53.241+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$aae4e796] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27T23:06:53.909+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:06:54.011+0530 INFO Adding welcome page template: index
+2019-09-27T23:06:54.397+0530 INFO Initializing Spring TestDispatcherServlet ''
+2019-09-27T23:06:54.398+0530 INFO Initializing Servlet ''
+2019-09-27T23:06:54.417+0530 INFO Completed initialization in 19 ms
+2019-09-27T23:06:54.466+0530 INFO Started WeatherControllerTest in 2.982 seconds (JVM running for 4.721)
+2019-09-27T23:06:54.552+0530 INFO Hello from Log4j 2 - num : [com.anuradha.weather.model.Weather@7978e022, com.anuradha.weather.model.Weather@2f894ad9]
+2019-09-27T23:06:54.942+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:18:35.873+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 13180 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-27T23:18:35.881+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-27T23:18:36.641+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-27T23:18:36.714+0530 INFO Finished Spring Data repository scanning in 67ms. Found 2 repository interfaces.
+2019-09-27T23:18:37.021+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$a2027e46] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27T23:18:37.335+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-27T23:18:37.353+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-27T23:18:37.365+0530 INFO Starting service [Tomcat]
+2019-09-27T23:18:37.366+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-27T23:18:37.476+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-27T23:18:37.477+0530 INFO Root WebApplicationContext: initialization completed in 1511 ms
+2019-09-27T23:18:38.232+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-27T23:18:38.233+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-27T23:18:38.261+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-27T23:18:38.262+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-27T23:18:39.462+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:18:39.533+0530 INFO Adding welcome page template: index
+2019-09-27T23:18:39.852+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-27T23:18:39.900+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-27T23:18:39.904+0530 INFO Started WeatherappApplication in 4.455 seconds (JVM running for 5.752)
+2019-09-27T23:18:40.433+0530 INFO Opened connection [connectionId{localValue:1, serverValue:411326}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-27T23:18:40.433+0530 INFO Opened connection [connectionId{localValue:3, serverValue:417434}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:18:40.433+0530 INFO Opened connection [connectionId{localValue:2, serverValue:419577}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-27T23:18:40.775+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=339513746, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Fri Sep 27 23:18:31 IST 2019, lastUpdateTimeNanos=5829416540317}
+2019-09-27T23:18:40.776+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=341689872, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Fri Sep 27 23:18:31 IST 2019, lastUpdateTimeNanos=5829417837388}
+2019-09-27T23:18:40.776+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=341860259, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Fri Sep 27 23:18:31 IST 2019, lastUpdateTimeNanos=5829418013529}
+2019-09-27T23:18:40.778+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:18:40.778+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:18:40.778+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:19:00.237+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-27T23:19:00.238+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-27T23:19:00.254+0530 INFO Completed initialization in 16 ms
+2019-09-27T23:19:03.195+0530 INFO Opened connection [connectionId{localValue:4, serverValue:422204}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:19:07.012+0530 INFO [com.anuradha.weather.model.Weather@595cdc69, com.anuradha.weather.model.Weather@1858ff19, com.anuradha.weather.model.Weather@43b89f22, com.anuradha.weather.model.Weather@29de489c, com.anuradha.weather.model.Weather@16de765a, com.anuradha.weather.model.Weather@49a1e3af]
+2019-09-27T23:45:19.958+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:45:20.385+0530 INFO Closed connection [connectionId{localValue:4, serverValue:422204}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-27T23:45:25.711+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 16507 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-27T23:45:25.719+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-27T23:45:26.374+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-27T23:45:26.438+0530 INFO Finished Spring Data repository scanning in 60ms. Found 2 repository interfaces.
+2019-09-27T23:45:26.726+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ac3a6135] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-27T23:45:26.987+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-27T23:45:27.000+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-27T23:45:27.011+0530 INFO Starting service [Tomcat]
+2019-09-27T23:45:27.011+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-27T23:45:27.093+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-27T23:45:27.093+0530 INFO Root WebApplicationContext: initialization completed in 1297 ms
+2019-09-27T23:45:27.954+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-27T23:45:27.954+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-27T23:45:27.975+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-27T23:45:27.976+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-27T23:45:29.026+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-27T23:45:29.098+0530 INFO Adding welcome page template: index
+2019-09-27T23:45:29.418+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-27T23:45:29.459+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-27T23:45:29.464+0530 INFO Started WeatherappApplication in 4.11 seconds (JVM running for 5.226)
+2019-09-27T23:45:30.090+0530 INFO Opened connection [connectionId{localValue:3, serverValue:418451}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-27T23:45:30.095+0530 INFO Opened connection [connectionId{localValue:1, serverValue:426896}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:45:30.095+0530 INFO Opened connection [connectionId{localValue:2, serverValue:423838}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-27T23:45:30.395+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=303394979, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Fri Sep 27 23:45:21 IST 2019, lastUpdateTimeNanos=7439097642231}
+2019-09-27T23:45:30.396+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=300703451, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Fri Sep 27 23:45:21 IST 2019, lastUpdateTimeNanos=7439098945149}
+2019-09-27T23:45:30.396+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=300334482, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Fri Sep 27 23:45:21 IST 2019, lastUpdateTimeNanos=7439099069107}
+2019-09-27T23:45:30.397+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:45:30.397+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:45:30.397+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:45:37.449+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-27T23:45:37.449+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-27T23:45:37.465+0530 INFO Completed initialization in 16 ms
+2019-09-27T23:45:40.223+0530 INFO Opened connection [connectionId{localValue:4, serverValue:426896}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-27T23:45:51.696+0530 INFO [com.anuradha.weather.model.Weather@1379abc0, com.anuradha.weather.model.Weather@619078fa, com.anuradha.weather.model.Weather@6a138889, com.anuradha.weather.model.Weather@e423067, com.anuradha.weather.model.Weather@50bbadc4, com.anuradha.weather.model.Weather@328e5881]
+2019-09-27T23:46:05.596+0530 INFO [com.anuradha.weather.model.Weather@1b06461f, com.anuradha.weather.model.Weather@1f39c1a7, com.anuradha.weather.model.Weather@5a3b4c24, com.anuradha.weather.model.Weather@4234c2a6, com.anuradha.weather.model.Weather@6b2b5241, com.anuradha.weather.model.Weather@3ace827a]
+2019-09-27T23:46:15.758+0530 INFO [com.anuradha.weather.model.Weather@757140c3, com.anuradha.weather.model.Weather@7bb6a01d, com.anuradha.weather.model.Weather@7f892bb3, com.anuradha.weather.model.Weather@3a8baa26, com.anuradha.weather.model.Weather@458382ec, com.anuradha.weather.model.Weather@bfb7409]
+2019-09-28T00:08:25.667+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-28T00:08:26.059+0530 INFO Closed connection [connectionId{localValue:4, serverValue:426896}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-28T00:08:31.525+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 19380 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-28T00:08:31.531+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-28T00:08:32.216+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-28T00:08:32.283+0530 INFO Finished Spring Data repository scanning in 62ms. Found 2 repository interfaces.
+2019-09-28T00:08:32.585+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$7f265c14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-28T00:08:32.840+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-28T00:08:32.852+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-28T00:08:32.862+0530 INFO Starting service [Tomcat]
+2019-09-28T00:08:32.862+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-28T00:08:32.943+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-28T00:08:32.943+0530 INFO Root WebApplicationContext: initialization completed in 1331 ms
+2019-09-28T00:08:33.621+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-28T00:08:33.622+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:08:33.643+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:08:33.644+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:08:34.743+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-28T00:08:34.809+0530 INFO Adding welcome page template: index
+2019-09-28T00:08:35.102+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-28T00:08:35.143+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-28T00:08:35.147+0530 INFO Started WeatherappApplication in 4.001 seconds (JVM running for 5.237)
+2019-09-28T00:08:36.086+0530 INFO Opened connection [connectionId{localValue:1, serverValue:425911}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-28T00:08:36.086+0530 INFO Opened connection [connectionId{localValue:3, serverValue:425212}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-28T00:08:36.086+0530 INFO Opened connection [connectionId{localValue:2, serverValue:417434}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:08:36.394+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=306414581, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sat Sep 28 00:08:31 IST 2019, lastUpdateTimeNanos=8825132856442}
+2019-09-28T00:08:36.395+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=307990414, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Sat Sep 28 00:08:31 IST 2019, lastUpdateTimeNanos=8825134062819}
+2019-09-28T00:08:36.395+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=307979861, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Sat Sep 28 00:08:31 IST 2019, lastUpdateTimeNanos=8825134052878}
+2019-09-28T00:08:36.396+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:08:36.397+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:08:36.397+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:08:49.563+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-28T00:08:49.563+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-28T00:08:49.580+0530 INFO Completed initialization in 17 ms
+2019-09-28T00:08:52.573+0530 INFO Opened connection [connectionId{localValue:4, serverValue:422204}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:09:03.839+0530 INFO [com.anuradha.weather.model.Weather@76964002, com.anuradha.weather.model.Weather@5371ea38, com.anuradha.weather.model.Weather@4edba57d, com.anuradha.weather.model.Weather@31c700c5, com.anuradha.weather.model.Weather@7595d0af, com.anuradha.weather.model.Weather@29e9d40f]
+2019-09-28T00:09:19.402+0530 INFO [com.anuradha.weather.model.Weather@65837b07, com.anuradha.weather.model.Weather@61bce36f, com.anuradha.weather.model.Weather@24be713c, com.anuradha.weather.model.Weather@6bf511c4, com.anuradha.weather.model.Weather@155014fe, com.anuradha.weather.model.Weather@13f12aa0]
+2019-09-28T00:11:05.967+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-28T00:11:06.329+0530 INFO Closed connection [connectionId{localValue:4, serverValue:422204}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
+2019-09-28T00:11:12.541+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 19711 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-28T00:11:12.547+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-28T00:11:13.293+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-28T00:11:13.353+0530 INFO Finished Spring Data repository scanning in 56ms. Found 2 repository interfaces.
+2019-09-28T00:11:13.634+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$87603850] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-28T00:11:13.913+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-28T00:11:13.929+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-28T00:11:13.940+0530 INFO Starting service [Tomcat]
+2019-09-28T00:11:13.940+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-28T00:11:14.032+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-28T00:11:14.032+0530 INFO Root WebApplicationContext: initialization completed in 1401 ms
+2019-09-28T00:11:14.711+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-28T00:11:14.712+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:11:14.735+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:11:14.736+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:11:15.927+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-28T00:11:16.003+0530 INFO Adding welcome page template: index
+2019-09-28T00:11:16.274+0530 INFO Initializing ExecutorService 'taskScheduler'
+2019-09-28T00:11:16.331+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-28T00:11:16.335+0530 INFO Fixed Rate Task :: Execution Time - 00:11:16
+2019-09-28T00:11:16.369+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-28T00:11:16.372+0530 INFO Started WeatherappApplication in 4.207 seconds (JVM running for 5.154)
+2019-09-28T00:11:16.856+0530 INFO Opened connection [connectionId{localValue:2, serverValue:426896}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:11:16.856+0530 INFO Opened connection [connectionId{localValue:1, serverValue:408623}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-28T00:11:16.856+0530 INFO Opened connection [connectionId{localValue:3, serverValue:428585}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-28T00:11:17.164+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=303246202, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Sat Sep 28 00:11:11 IST 2019, lastUpdateTimeNanos=8985906641557}
+2019-09-28T00:11:17.164+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=305101274, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sat Sep 28 00:11:11 IST 2019, lastUpdateTimeNanos=8985908002186}
+2019-09-28T00:11:17.164+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=305139897, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Sat Sep 28 00:11:11 IST 2019, lastUpdateTimeNanos=8985908038116}
+2019-09-28T00:11:17.166+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:11:17.166+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:11:17.166+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:11:18.330+0530 INFO Fixed Rate Task :: Execution Time - 00:11:18
+2019-09-28T00:11:20.332+0530 INFO Fixed Rate Task :: Execution Time - 00:11:20
+2019-09-28T00:11:22.334+0530 INFO Fixed Rate Task :: Execution Time - 00:11:22
+2019-09-28T00:11:24.330+0530 INFO Fixed Rate Task :: Execution Time - 00:11:24
+2019-09-28T00:11:26.330+0530 INFO Fixed Rate Task :: Execution Time - 00:11:26
+2019-09-28T00:11:27.310+0530 INFO Shutting down ExecutorService 'taskScheduler'
+2019-09-28T00:11:27.311+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-28T00:49:35.270+0530 INFO Starting WeatherappApplication on ANURADHAM.local with PID 24473 (/Users/anuradha/Documents/templates/weatherapp/target/classes started by anuradha in /Users/anuradha/Documents/templates/weatherapp)
+2019-09-28T00:49:35.281+0530 INFO No active profile set, falling back to default profiles: default
+2019-09-28T00:49:36.107+0530 INFO Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-09-28T00:49:36.189+0530 INFO Finished Spring Data repository scanning in 74ms. Found 2 repository interfaces.
+2019-09-28T00:49:36.507+0530 INFO Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$61eb90e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-28T00:49:36.769+0530 INFO Tomcat initialized with port(s): 8080 (http)
+2019-09-28T00:49:36.782+0530 INFO Initializing ProtocolHandler ["http-nio-8080"]
+2019-09-28T00:49:36.792+0530 INFO Starting service [Tomcat]
+2019-09-28T00:49:36.792+0530 INFO Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019-09-28T00:49:36.874+0530 INFO Initializing Spring embedded WebApplicationContext
+2019-09-28T00:49:36.874+0530 INFO Root WebApplicationContext: initialization completed in 1543 ms
+2019-09-28T00:49:37.635+0530 INFO Cluster created with settings {hosts=[matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017, matrix-shard-00-02-gbwyx.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='matrix-shard-0'}
+2019-09-28T00:49:37.636+0530 INFO Adding discovered server matrix-shard-00-00-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:49:37.673+0530 INFO Adding discovered server matrix-shard-00-01-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:49:37.674+0530 INFO Adding discovered server matrix-shard-00-02-gbwyx.mongodb.net:27017 to client view of cluster
+2019-09-28T00:49:38.879+0530 INFO Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-28T00:49:38.966+0530 INFO Adding welcome page template: index
+2019-09-28T00:49:39.238+0530 INFO Initializing ExecutorService 'taskScheduler'
+2019-09-28T00:49:39.301+0530 INFO Starting ProtocolHandler ["http-nio-8080"]
+2019-09-28T00:49:39.304+0530 INFO House keeping is in progress :: Execution Time - 00:49:39
+2019-09-28T00:49:39.344+0530 INFO Tomcat started on port(s): 8080 (http) with context path ''
+2019-09-28T00:49:39.348+0530 INFO Started WeatherappApplication in 4.437 seconds (JVM running for 5.736)
+2019-09-28T00:49:40.246+0530 INFO Opened connection [connectionId{localValue:1, serverValue:417385}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:49:40.246+0530 INFO Opened connection [connectionId{localValue:3, serverValue:423739}] to matrix-shard-00-01-gbwyx.mongodb.net:27017
+2019-09-28T00:49:40.246+0530 INFO Opened connection [connectionId{localValue:2, serverValue:425212}] to matrix-shard-00-02-gbwyx.mongodb.net:27017
+2019-09-28T00:49:40.657+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-01-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=410245543, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-01-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Sat Sep 28 00:49:31 IST 2019, lastUpdateTimeNanos=11289481790082}
+2019-09-28T00:49:40.657+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-02-gbwyx.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=408483499, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-02-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sat Sep 28 00:49:31 IST 2019, lastUpdateTimeNanos=11289480749162}
+2019-09-28T00:49:40.657+0530 INFO Monitor thread successfully connected to server with description ServerDescription{address=matrix-shard-00-00-gbwyx.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 12]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=410384693, setName='matrix-shard-0', canonicalAddress=matrix-shard-00-00-gbwyx.mongodb.net:27017, hosts=[matrix-shard-00-02-gbwyx.mongodb.net:27017, matrix-shard-00-00-gbwyx.mongodb.net:27017, matrix-shard-00-01-gbwyx.mongodb.net:27017], passives=[], arbiters=[], primary='matrix-shard-00-00-gbwyx.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='US_EAST_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=7fffffff000000000000000b, setVersion=1, lastWriteDate=Sat Sep 28 00:49:31 IST 2019, lastUpdateTimeNanos=11289481928230}
+2019-09-28T00:49:40.659+0530 INFO Setting max election id to 7fffffff000000000000000b from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:49:40.660+0530 INFO Setting max set version to 1 from replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:49:40.660+0530 INFO Discovered replica set primary matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:49:41.304+0530 INFO House keeping is in progress :: Execution Time - 00:49:41
+2019-09-28T00:49:43.301+0530 INFO House keeping is in progress :: Execution Time - 00:49:43
+2019-09-28T00:49:45.303+0530 INFO House keeping is in progress :: Execution Time - 00:49:45
+2019-09-28T00:49:46.831+0530 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-28T00:49:46.831+0530 INFO Initializing Servlet 'dispatcherServlet'
+2019-09-28T00:49:46.849+0530 INFO Completed initialization in 18 ms
+2019-09-28T00:49:46.869+0530 INFO Checking for weather updates
+2019-09-28T00:49:47.302+0530 INFO House keeping is in progress :: Execution Time - 00:49:47
+2019-09-28T00:49:49.302+0530 INFO House keeping is in progress :: Execution Time - 00:49:49
+2019-09-28T00:49:49.870+0530 INFO Opened connection [connectionId{localValue:4, serverValue:417385}] to matrix-shard-00-00-gbwyx.mongodb.net:27017
+2019-09-28T00:49:50.288+0530 INFO Getting Updates
+2019-09-28T00:49:50.615+0530 INFO https://api.darksky.net/forecast/e5ad83fd177f6bef9a92644514580c2b/37.2872,121.9500
+2019-09-28T00:49:51.300+0530 INFO House keeping is in progress :: Execution Time - 00:49:51
+2019-09-28T00:49:52.465+0530 INFO Saving a weather update: 
+2019-09-28T00:49:53.147+0530 INFO https://api.darksky.net/forecast/e5ad83fd177f6bef9a92644514580c2b/6.2088,106.8456
+2019-09-28T00:49:53.304+0530 INFO House keeping is in progress :: Execution Time - 00:49:53
+2019-09-28T00:49:53.569+0530 INFO Saving a weather update: 
+2019-09-28T00:49:54.171+0530 INFO https://api.darksky.net/forecast/e5ad83fd177f6bef9a92644514580c2b/30.2672,97.7431
+2019-09-28T00:49:54.517+0530 INFO Saving a weather update: 
+2019-09-28T00:49:55.196+0530 INFO https://api.darksky.net/forecast/e5ad83fd177f6bef9a92644514580c2b/42.8048,140.6874
+2019-09-28T00:49:55.304+0530 INFO House keeping is in progress :: Execution Time - 00:49:55
+2019-09-28T00:49:55.659+0530 INFO Saving a weather update: 
+2019-09-28T00:49:56.322+0530 INFO https://api.darksky.net/forecast/e5ad83fd177f6bef9a92644514580c2b/41.2565,95.9345
+2019-09-28T00:49:56.662+0530 INFO Saving a weather update: 
+2019-09-28T00:49:57.304+0530 INFO House keeping is in progress :: Execution Time - 00:49:57
+2019-09-28T00:49:57.345+0530 INFO https://api.darksky.net/forecast/e5ad83fd177f6bef9a92644514580c2b/34.6851,135.8048
+2019-09-28T00:49:57.684+0530 INFO Saving a weather update: 
+2019-09-28T00:49:58.788+0530 INFO [com.anuradha.weather.model.Weather@4e819dc9, com.anuradha.weather.model.Weather@7c6d8a5d, com.anuradha.weather.model.Weather@28d793cc, com.anuradha.weather.model.Weather@62880633, com.anuradha.weather.model.Weather@2025b07e, com.anuradha.weather.model.Weather@300af945]
+2019-09-28T00:49:59.299+0530 INFO House keeping is in progress :: Execution Time - 00:49:59
+2019-09-28T00:50:01.302+0530 INFO House keeping is in progress :: Execution Time - 00:50:01
+2019-09-28T00:50:03.299+0530 INFO House keeping is in progress :: Execution Time - 00:50:03
+2019-09-28T00:50:05.299+0530 INFO House keeping is in progress :: Execution Time - 00:50:05
+2019-09-28T00:50:07.303+0530 INFO House keeping is in progress :: Execution Time - 00:50:07
+2019-09-28T00:50:09.299+0530 INFO House keeping is in progress :: Execution Time - 00:50:09
+2019-09-28T00:50:11.272+0530 INFO Checking for weather updates
+2019-09-28T00:50:11.298+0530 INFO House keeping is in progress :: Execution Time - 00:50:11
+2019-09-28T00:50:11.578+0530 INFO Received a element: 
+2019-09-28T00:50:12.193+0530 INFO [com.anuradha.weather.model.Weather@5f73456b, com.anuradha.weather.model.Weather@51b4a0f5, com.anuradha.weather.model.Weather@558b2e1b, com.anuradha.weather.model.Weather@1089aace, com.anuradha.weather.model.Weather@5594eda9, com.anuradha.weather.model.Weather@21d35ce6]
+2019-09-28T00:50:13.299+0530 INFO House keeping is in progress :: Execution Time - 00:50:13
+2019-09-28T00:50:15.301+0530 INFO House keeping is in progress :: Execution Time - 00:50:15
+2019-09-28T00:50:17.301+0530 INFO House keeping is in progress :: Execution Time - 00:50:17
+2019-09-28T00:50:19.302+0530 INFO House keeping is in progress :: Execution Time - 00:50:19
+2019-09-28T00:50:21.298+0530 INFO House keeping is in progress :: Execution Time - 00:50:21
+2019-09-28T00:50:23.303+0530 INFO House keeping is in progress :: Execution Time - 00:50:23
+2019-09-28T00:50:25.091+0530 INFO Shutting down ExecutorService 'taskScheduler'
+2019-09-28T00:50:25.093+0530 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-28T00:50:25.507+0530 INFO Closed connection [connectionId{localValue:4, serverValue:417385}] to matrix-shard-00-00-gbwyx.mongodb.net:27017 because the pool has been closed.
