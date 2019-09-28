@@ -35,6 +35,12 @@ public class WeatherServiceImpl implements WeatherService {
     @Autowired
     private WeatherArchiveRepository weatherArchiveRepository;
 
+    /**
+     * @param key same key defines inside the {@link Constants.COORDINATES}
+     * @param node take parameter type JsonNode returned from darkSky URL
+     *
+     * @return Weather type object which persists on DB
+     * **/
     @Override
     public Weather create(String key, JsonNode node) {
         Weather weather  = new Weather();
@@ -65,16 +71,33 @@ public class WeatherServiceImpl implements WeatherService {
         return weatherRepository.save(weather);
     }
 
+    /**
+     * Return all updates for the specific day
+     * @return List<Weather>
+     * **/
     @Override
     public List<Weather> getAll() {
         return weatherRepository.findAll();
     }
 
+    /**
+     * @param key takes String type key which defines inside the {@link Constants.COORDINATES}
+     * @return Weather
+     * **/
     @Override
     public Weather findByKey(String key) {
         return weatherRepository.findByKey(key);
     }
 
+    /**
+     * Checks if weather updates are persists on the collection if not
+     * {@link #getUpdates()} will be called
+     *
+     * If stored updates are present then checks if the current updates are for the current day
+     * if not detects its a new day, executes {@link #archive()} to send current stored updates to the
+     * buffered collection the {@link #deleteAll()} to delete the current updates.
+     * Finally use {@link #getUpdates()} to retrieve new updates.
+     * **/
     @Override
     public void checkAndUpdate() {
         logger.info("Checking for stored weather updates");
@@ -97,6 +120,10 @@ public class WeatherServiceImpl implements WeatherService {
         }
     }
 
+    /**
+     * This method will execute by the scheduler twice a day.
+     * This will archive the buffered updates to new collection if they are more than 3 days old
+     * **/
     @Override
     public void houseKeepData() {
          List<WeatherArchive> weatherArchives = weatherArchiveRepository.findAll();
@@ -113,11 +140,17 @@ public class WeatherServiceImpl implements WeatherService {
         logger.info("Time difference: " + timeDif + " - " + Constants.TIMETOEXPIRE);
     }
 
+    /**
+     * Delete all the stored updates for the current day
+     * **/
     public String deleteAll() {
         weatherRepository.deleteAll();
         return "Deleted all the data";
     }
 
+    /**
+     * Archive all the stored updates of the current day to a buffered collection
+     * **/
     public void archive() {
         List<Weather> weatherList = getAll();
         weatherArchiveRepository.save(new WeatherArchive(
@@ -125,6 +158,9 @@ public class WeatherServiceImpl implements WeatherService {
         ));
     }
 
+    /**
+     * Method will retrieve new updates if stored updates are not present at the collection
+     * **/
     @Override
     public void getUpdates() {
         logger.info("Getting Updates");

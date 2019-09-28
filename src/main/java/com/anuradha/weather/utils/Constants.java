@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Constants {
+    // holds location name as the keys and its GPS coordinates
     public static final Map<String, String> COORDINATES = new HashMap<String, String>() {{
         put("Campbell, CA", "37.2872,121.9500");
         put("Omaha, NE", "41.2565,95.9345");
@@ -13,5 +14,6 @@ public class Constants {
         put("Jakarta, Indonesia", "6.2088,106.8456");
     }};
 
+    // set time in milliseconds to run the housekeep process default is 259200000 which is 3 days
     public static final long TIMETOEXPIRE = 259200000;
 }
