@@ -12,6 +12,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -24,6 +25,9 @@ import java.util.concurrent.TimeUnit;
 public class WeatherServiceImpl implements WeatherService {
 
     private static final Logger logger = LogManager.getLogger(WeatherServiceImpl.class);
+
+    @Autowired
+    private MongoTemplate mongoTemplate;
 
     @Autowired
     private WeatherRepository weatherRepository;
@@ -73,24 +77,40 @@ public class WeatherServiceImpl implements WeatherService {
 
     @Override
     public void checkAndUpdate() {
-        logger.info("Checking for weather updates");
+        logger.info("Checking for stored weather updates");
         Calendar calendarNow = Calendar.getInstance();
         calendarNow.setTime(new Date());
 
-        Weather aElement = findByKey(Constants.COORDINATES.entrySet().stream().findFirst().get().getKey());
+        Weather storedUpdate = findByKey(Constants.COORDINATES.entrySet().stream().findFirst().get().getKey());
 
-        if (aElement == null) {
+        if (storedUpdate == null) {
             getUpdates();
             return;
         }
-        logger.info("Received a element: ", aElement.getKey() + " - " + aElement.getTime());
+        logger.info("Received a stored weather update: ", storedUpdate.getKey() + " - " + storedUpdate.getTime());
         Calendar lastUpdatedCalender =  Calendar.getInstance();
-        lastUpdatedCalender.setTimeInMillis(TimeUnit.SECONDS.toMillis(aElement.getTime()));
+        lastUpdatedCalender.setTimeInMillis(TimeUnit.SECONDS.toMillis(storedUpdate.getTime()));
         if(calendarNow.get(Calendar.DAY_OF_WEEK) != lastUpdatedCalender.get(Calendar.DAY_OF_WEEK)) {
             archive();
             deleteAll();
             getUpdates();
         }
+    }
+
+    @Override
+    public void houseKeepData() {
+         List<WeatherArchive> weatherArchives = weatherArchiveRepository.findAll();
+         if (weatherArchives == null || weatherArchives.size() == 0) {
+             return;
+         }
+         long timeDif = new Date().getTime() - TimeUnit.SECONDS.toMillis(weatherArchives.get(0).getLastUpdateTime());
+         if ( timeDif >= Constants.TIMETOEXPIRE) {
+             weatherArchives.forEach(weatherArchive -> {
+                 mongoTemplate.insert(weatherArchive, "weather_archive");
+             });
+             logger.info("Archiving weather buffer");
+         }
+        logger.info("Time difference: " + timeDif + " - " + Constants.TIMETOEXPIRE);
     }
 
     public String deleteAll() {

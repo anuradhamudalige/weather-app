@@ -11,4 +11,5 @@ public interface WeatherService {
     List<Weather> getAll();
     Weather findByKey(String key);
     void checkAndUpdate();
+    void houseKeepData();
 }

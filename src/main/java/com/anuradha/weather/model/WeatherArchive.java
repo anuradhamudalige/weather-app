@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.List;
 
-@Document(collection = "weather_archive")
+@Document(collection = "weather_archive_buffer")
 public class WeatherArchive {
     @Id
     String id;
