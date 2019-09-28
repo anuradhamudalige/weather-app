@@ -7,13 +7,15 @@ by Anuradha Mudalige
 - Bootstrap CDN 4.3.1
 - Thymeleaf 2.1.8
 - MongoDB
+- HTML5
 
 # Launching the Application
 
 - Clone the repository.
 - Navigate to the `RELEASE` directory using terminal
 - Run the pre built app by `java -jar weatherapp-0.0.1-SNAPSHOT.jar`
-- Log file will be created at the `RELEASE/logs/application.log`. 
+- Open your browser and navigate to the `http://localhost:8080/`
+- Log file will be created at the `RELEASE/logs/application.log`.
 
 # Testing
 
