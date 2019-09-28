@@ -170,6 +170,7 @@ public class WeatherServiceImpl implements WeatherService {
                 if (findByKey(key) == null) {
                     JsonNode root = mapper.readTree(Postman.get(ConnectionParams.weatherUrl + value).getBody());
                     create(key, root.get("currently"));
+                    logger.info(root.toString());
                 }
             } catch (IOException e) {
                 e.printStackTrace();
